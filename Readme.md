@@ -4,7 +4,7 @@ Simple React hook for Smooth Scrolling Effect
 
 Usage
 
-`
+```
 import useSmoothScroller from "react-smooth-scroller-hook";
 
 const App = ()=>{
@@ -16,7 +16,7 @@ const App = ()=>{
         </>
     )
 }
-`
+```
 
 ## Arguments
 
