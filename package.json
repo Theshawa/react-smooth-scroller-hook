@@ -1,0 +1,31 @@
+{
+  "name": "react-smooth-scroller-hook",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "description": "Simple React hook for Smooth Scrolling Effect",
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "theshawa",
+    "email": "mrclocktd@gmail.com",
+    "url": "https://www.npmjs.com/~theshawa"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "gsap": "^3.11.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
