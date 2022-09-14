@@ -5,6 +5,10 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "description": "Simple React hook for Smooth Scrolling Effect",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Theshawa/react-smooth-scroller-hook.git"
+  },
   "files": [
     "dist"
   ],
