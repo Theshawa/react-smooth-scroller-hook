@@ -1,3 +1,3 @@
 import useSmoothScroller from "./useSmoothScroller";
 
-export default useSmoothScroller;
+export { useSmoothScroller };
