@@ -1,5 +1,5 @@
-import { useEffect, useRef } from "react";
 import gsap from "gsap";
+import { useEffect, useRef } from "react";
 
 const useSmoothScroller = (ease = 0.6) => {
   let bestEase = Math.min(ease, 1);

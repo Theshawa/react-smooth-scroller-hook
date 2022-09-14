@@ -1,9 +1,9 @@
 {
   "name": "react-smooth-scroller-hook",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "description": "Simple React hook for Smooth Scrolling Effect",
   "repository": {
     "type": "git",
@@ -18,7 +18,9 @@
     "url": "https://www.npmjs.com/~theshawa"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonJS --outDir dist/cjs"
   },
   "dependencies": {
     "gsap": "^3.11.1",
