@@ -11,7 +11,7 @@ const App = ()=>{
     const {container,spacer} = useSmoothScroller(0.8);
     return (
         <>
-            <div ref={container}></div>
+            <div ref={container}>Add your content here</div>
             <div ref={spacer}></div>
         </>
     )
