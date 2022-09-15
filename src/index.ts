@@ -1,5 +1,5 @@
 import gsap from "gsap";
-import { useEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 
 type ReactSmoothScrollerHook = (ease?: number) => {
   container: React.RefObject<HTMLDivElement>;
@@ -16,7 +16,7 @@ const useSmoothScroller: ReactSmoothScrollerHook = (ease = 0.6) => {
   const container = useRef<HTMLDivElement>(null);
   const spacer = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const setupHeight = () => {
       if (container.current && spacer.current) {
         const height = container.current.getBoundingClientRect().height;
